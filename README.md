@@ -1,21 +1,27 @@
-# zxweb
+### zxweb
 
 > zxweb
 
-## Build Setup
+vue脚手架配置初始化项目
+
+### 依赖库
+- **[vue-resource][11]**
+- **[vue-router][22]**
+- **[standard][33]**
+
+[11]: https://github.com/pagekit/vue-resource
+[22]: https://github.com/vuejs/vue-router
+[33]: https://github.com/feross/standard 
+### 本地操作
 
 ``` bash
-# install dependencies
+- 安装依赖
 npm install
 
-# serve with hot reload at localhost:8080
+- 本地测试环境(默认端口8080)
 npm run dev
 
-# build for production with minification
+- 构建生产环境 
 npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
